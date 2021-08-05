@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bakeries",
+      "handler": "bakery.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bakeries/count",
+      "handler": "bakery.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bakeries/:id",
+      "handler": "bakery.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bakeries",
+      "handler": "bakery.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bakeries/:id",
+      "handler": "bakery.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bakeries/:id",
+      "handler": "bakery.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
